@@ -18,13 +18,14 @@ function App() {
     <input type="submit"  className="button" value="Search"/>
   </form>
   </div>;
-
+  
 if(city) {
     return(
       <div>
       {form}
       <Weather city={city}/>
       </div>
+      
     );
 } else{
   return(

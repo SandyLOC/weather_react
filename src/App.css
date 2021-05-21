@@ -1,6 +1,16 @@
 body {
   background: white;
 }
+.container {
+  background: black;
+  border-radius: 40px;
+  width: 600px;
+  height: 400px;
+  margin-left: 80px;
+  margin-top: 30px;
+  padding-top: 3px;
+  padding-bottom: 20px;
+}
 ul {
   list-style-type: none;
   }
@@ -11,7 +21,6 @@ ul {
   margin-top: 60px;
   color:rgb(94, 202, 238);
   font-size: 20px;
-
 }
 .Weather {
   font-family: sans-serif;
@@ -32,13 +41,6 @@ ul {
   border-radius: 5px;
   margin-left: 5px;
 }
-#root {
-  background: black;
-  border-radius: 40px;
-  width: 600px;
-  height: 400px;
-  margin-left: 80px;
-  margin-top: 30px;
-  padding-top: 3px;
-  padding-bottom: 20px;
+a {
+  margin-left: 250px;
 }
